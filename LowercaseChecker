@@ -1,0 +1,29 @@
+// Program Name: LowercaseChecker.c
+// Description: This program checks whether the entered character is a lowercase letter or not.
+// Author: [Your Name]
+// Date: [Current Date]
+
+#include <stdio.h>
+
+int main() {
+    char ch;  // Variable to store the character entered by the user
+
+    // Step 1: Ask the user to enter a character
+    printf("Enter a character: ");
+    scanf("%c", &ch);  // Step 2: Read the character input from the user
+
+    /*
+        Step 3: ASCII value ranges for lowercase letters
+        'a' to 'z' → ASCII values 97 to 122
+        We'll check if the entered character falls within this range.
+    */
+    if (ch >= 'a' && ch <= 'z') {
+        printf("YES, the character '%c' is a lowercase letter.\n", ch);  // Case 1: Lowercase
+    } 
+    else {
+        printf("NO, the character '%c' is NOT a lowercase letter.\n", ch);  // Case 2: Not lowercase
+    }
+
+    // Step 4: End of program
+    return 0;
+}
