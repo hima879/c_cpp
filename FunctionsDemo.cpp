@@ -3,8 +3,7 @@
 //              1. printName() -> prints a greeting with the given name.
 //              2. sum_Method1() -> computes sum and prints result directly.
 //              3. sum_Method2() -> computes sum and returns result.
-// Author: [Your Name]
-// Date: [Current Date]
+
 
 #include <iostream> // Standard input-output library
 using namespace std;
