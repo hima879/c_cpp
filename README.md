@@ -5,8 +5,4 @@ It serves as a personal archive to track my progress, experiment with different 
 
 🔹 Languages Used: C, C++
 🔹 Purpose: Practice, Learning, and Concept Building
-🔹 Content: Simple programs, algorithm implementations, and project-based exercises
-
-
----
-
+🔹 Content: Simple programs, algorithm implementations, and project-based exercises.
